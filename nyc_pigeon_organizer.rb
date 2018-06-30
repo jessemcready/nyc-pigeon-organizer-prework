@@ -24,7 +24,7 @@ def nyc_pigeon_organizer(data)
     data.each do |char, value|
       value.each do |secondary_char, names_of_bird|
         if names_of_bird.include?(name)
-            
+            oranized_birds[name][char] << secondary_char.to_s
         end
       end 
     end 
