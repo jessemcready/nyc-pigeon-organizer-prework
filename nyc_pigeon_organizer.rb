@@ -30,6 +30,6 @@ def nyc_pigeon_organizer(data)
     end 
   end 
   
-  puts oranized_birds
+  oranized_birds
   
 end
