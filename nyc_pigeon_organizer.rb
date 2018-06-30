@@ -3,8 +3,8 @@ def nyc_pigeon_organizer(data)
   names = []
   
   data.each do |characteristic, value|
-    value.each do |secondary_char, names|
-      names.each do |name|
+    value.each do |secondary_char, names_of_bird|
+      names_of_bird.each do |name|
         names << name
       end 
     end
