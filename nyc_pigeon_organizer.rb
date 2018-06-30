@@ -14,7 +14,9 @@ def nyc_pigeon_organizer(data)
   names.uniq!
   
   names.each do |name|
-    
+    data.each do |char, value|
+      
+    end 
   end 
   
 end
