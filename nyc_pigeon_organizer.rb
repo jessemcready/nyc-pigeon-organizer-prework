@@ -14,9 +14,12 @@ def nyc_pigeon_organizer(data)
   names.uniq!
   
   names.each do |name|
+    oranized_birds[name] = {}
     data.each do |char, value|
-      oranized_birds[name]
+      oranized_birds[name][char] = []
     end 
   end 
+  
+  puts oranized_birds
   
 end
