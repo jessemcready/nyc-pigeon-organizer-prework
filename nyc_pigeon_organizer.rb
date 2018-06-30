@@ -27,10 +27,14 @@ def nyc_pigeon_organizer(data)
     end 
   end 
   
+  # finally for each name we have 
   names.each do |name|
+    # go through our data hash 
     data.each do |char, value|
       value.each do |secondary_char, names_of_bird|
+        # if our bird name is in the array from the original data hash 
         if names_of_bird.include?(name)
+            # add that characteristic to our previously made array on line 26
             oranized_birds[name][char] << secondary_char.to_s
         end
       end 
