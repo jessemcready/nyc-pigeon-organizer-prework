@@ -1,6 +1,7 @@
 def nyc_pigeon_organizer(data)
   # write your code here!
   names = []
+  oranized_birds = {}
   
   data.each do |characteristic, value|
     value.each do |secondary_char, names_of_bird|
@@ -11,6 +12,9 @@ def nyc_pigeon_organizer(data)
   end
   
   names.uniq!
-  puts names
+  
+  names.each do |name|
+    
+  end 
   
 end
