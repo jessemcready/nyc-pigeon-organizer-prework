@@ -23,7 +23,9 @@ def nyc_pigeon_organizer(data)
   names.each do |name|
     data.each do |char, value|
       value.each do |secondary_char, names_of_bird|
-        
+        if names_of_bird.include?(name)
+            
+        end
       end 
     end 
   end 
